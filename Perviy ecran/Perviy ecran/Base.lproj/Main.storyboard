@@ -62,8 +62,8 @@
                                     <action selector="showAll:" destination="BYZ-38-t0r" eventType="touchUpInside" id="XAF-Zr-FOV"/>
                                 </connections>
                             </button>
-                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="k9c-aG-Efu">
-                                <rect key="frame" x="324" y="689" width="70" height="50"/>
+                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="M2P-4c-9Dz">
+                                <rect key="frame" x="324" y="242" width="70" height="50"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                 <color key="backgroundColor" red="0.0" green="0.99755543469999997" blue="0.0" alpha="1" colorSpace="custom" customColorSpace="displayP3"/>
                                 <state key="normal" title="Button"/>
@@ -71,7 +71,7 @@
                                     <fontDescription key="titleFontDescription" type="system" pointSize="19"/>
                                 </buttonConfiguration>
                                 <connections>
-                                    <action selector="turnOffTheThirdImage:" destination="BYZ-38-t0r" eventType="touchUpInside" id="h4f-dZ-jFB"/>
+                                    <action selector="turnOffTheFirstImage:" destination="BYZ-38-t0r" eventType="touchUpInside" id="4B5-ki-iAY"/>
                                 </connections>
                             </button>
                             <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="PMB-0L-Rs2">
@@ -86,8 +86,8 @@
                                     <action selector="turnOffTheSecondImage:" destination="BYZ-38-t0r" eventType="touchUpInside" id="ppS-PE-Ikb"/>
                                 </connections>
                             </button>
-                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="M2P-4c-9Dz">
-                                <rect key="frame" x="324" y="242" width="70" height="50"/>
+                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="k9c-aG-Efu">
+                                <rect key="frame" x="324" y="689" width="70" height="50"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                 <color key="backgroundColor" red="0.0" green="0.99755543469999997" blue="0.0" alpha="1" colorSpace="custom" customColorSpace="displayP3"/>
                                 <state key="normal" title="Button"/>
@@ -95,7 +95,7 @@
                                     <fontDescription key="titleFontDescription" type="system" pointSize="19"/>
                                 </buttonConfiguration>
                                 <connections>
-                                    <action selector="turnOffTheFirstImage:" destination="BYZ-38-t0r" eventType="touchUpInside" id="W6K-Gw-cbv"/>
+                                    <action selector="turnOffTheThirdImage:" destination="BYZ-38-t0r" eventType="touchUpInside" id="h4f-dZ-jFB"/>
                                 </connections>
                             </button>
                         </subviews>
@@ -103,7 +103,8 @@
                         <color key="backgroundColor" systemColor="systemBackgroundColor"/>
                     </view>
                     <connections>
-                        <outlet property="firstImage" destination="Xep-tR-q3K" id="bLB-HN-v0J"/>
+                        <outlet property="firstImage" destination="dLW-ea-Tap" id="fDx-zX-3Yg"/>
+                        <outlet property="firstUiView" destination="DvC-h0-DAX" id="vVL-YL-6PP"/>
                         <outlet property="secondImage" destination="Xep-tR-q3K" id="0vH-0x-8kd"/>
                         <outlet property="thirdImage" destination="hwY-u7-JBh" id="87Z-Ku-poH"/>
                     </connections>
@@ -114,7 +115,7 @@
         </scene>
     </scenes>
     <resources>
-        <image name="Знімок екрана 2022-11-10 о 3.42.11 пп" width="934" height="500"/>
+        <image name="Знімок екрана 2022-11-10 о 3.42.11 пп" width="467" height="250"/>
         <systemColor name="placeholderTextColor">
             <color red="0.23529411764705882" green="0.23529411764705882" blue="0.2627450980392157" alpha="0.29999999999999999" colorSpace="custom" customColorSpace="sRGB"/>
         </systemColor>
