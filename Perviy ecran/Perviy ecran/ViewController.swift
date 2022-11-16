@@ -19,18 +19,20 @@ class ViewController: UIViewController {
     }
     
     @IBAction func turnOffTheFirstImage(_ sender: Any) {
-        firstImage.isHidden = UIImage.supportsSecureCoding
+        firstImage.isHidden = true
     }
     
     @IBAction func turnOffTheSecondImage(_ sender: Any) {
-        secondImage.isHidden = UIImage.supportsSecureCoding
+        secondImage.isHidden = true
     }
     @IBAction func turnOffTheThirdImage(_ sender: Any) {
-        thirdImage.isHidden = UIImage.supportsSecureCoding
+        thirdImage.isHidden = true
     }
     
     @IBAction func showAll(_ sender: Any) {
-        thirdImage.image = UIImage
+        firstImage.isHidden = false
+        secondImage.isHidden = false
+        thirdImage.isHidden = false
     }
     
 }
